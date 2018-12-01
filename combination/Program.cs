@@ -65,13 +65,13 @@ namespace combination
         }
 
         static void Main(string[] args)
-        {            
-            int[] numbersIn0 = new int[] { 1, 2 };
-            int[] numbersIn1 = new int[] { 3, 4, 13, 14, 66 };
-            int[] numbersIn2 = new int[] { 5, 6, 7, 8, 9 };
+        {
+            int[] numbersIn0 = new int[] { 1 , 2 };
+            int[] numbersIn1 = new int[] { 2 , 4, 13, 14, 66 };
+            int[] numbersIn2 = new int[] { 3 , 6, 7, 8, 9 };
             int[] numbersIn3 = new int[] { 10, 11, 12 };
 
-            int[][] numbersOut = Combination(numbersIn0, numbersIn1, numbersIn2, numbersIn3);
+            int[][] numbersOut = Combination(numbersIn0, numbersIn1, numbersIn2);// numbersIn3);
 
             for (int l = 0; l < numbersOut.Length; l++)
             {
