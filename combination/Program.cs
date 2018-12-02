@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace combination
 {
-    class Program
+    public class Program
     {
-        static int[][] Combination(params int[][] numbersIn)
+        public static int[][] Combination(params int[][] numbersIn)
         {
             //находим общее число комбинаций
             int numbersOfComb = 1;
